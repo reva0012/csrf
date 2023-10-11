@@ -1,0 +1,22 @@
+.land-container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.land-container .card {
+    width: 45%;
+}
+
+.land-container .card .title {
+    margin-left: 2%;
+    font-size: 4.5rem;
+    color: black;
+    font-weight: 600;
+    /* word-wrap: normal; */
+}
+
+.land-container .card img {
+    margin-top: 5%;
+    border-radius: 25px;
+}

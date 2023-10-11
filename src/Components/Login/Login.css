@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+
+.register h1{
+    margin-top: 3%;
+}
+
+.login-container {
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.login-container .login-card {
+    display: flex;
+    justify-content: space-evenly;
+    background: white;
+    align-items: left;
+    flex-direction: column;
+    border-radius: 25px;
+    width: 25%;
+    min-height: 340px;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.4);
+    font-size: 1.2rem;
+    padding: 2.5%;
+    margin-bottom: 2%;
+    text-align: left;
+    font-family: 'Hahmlet', serif;
+    background: linear-gradient(45deg,black 7%,white 7%, white 93%, black 93%);
+}
+
+.login-container .login-card label { 
+    cursor: pointer; 
+    display: block; 
+    padding: 3px 10px;
+    margin: 8px 0; 
+    width: 50%; 
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 900;
+}
+
+.login-container .login-card input[type="text"], .login-card input[type="password"] {
+    display: block; 
+    font-size: 0.96rem; 
+    border: 1px solid #ccc;
+    padding: 8px 16px; 
+    margin: 8px 0;
+    width: 90%;
+    border-radius: 5px;
+    background: whitesmoke;
+}
+
+.button-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.login-container .login-card input[type="submit"]{
+    margin-top: 40px;
+    border: none; 
+    background: rgb(255, 168, 128); 
+    color: black;
+    cursor: pointer; 
+    font-size: 0.96rem;
+    font-weight: bold;
+    outline: none;
+    padding: 12px 25px;
+    border-radius: 24px;
+    transition: 0.25s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-container .login-card input[type="reset"]{
+    margin-top: 40px;
+    border: none; 
+    background: brown;
+    color: white;
+    cursor: pointer; 
+    font-size: 0.96rem;
+    font-weight: bold;
+    outline: none;
+    padding: 12px 25px;
+    border-radius: 24px;
+    transition: 0.25s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.radio-buttons label {
+    padding: 1px 10px;
+    margin: 4px 0; 
+}
+.radio-buttons input {
+    margin-left: 5%; 
+}
